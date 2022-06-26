@@ -1,4 +1,17 @@
 .App {
+  margin: auto;
+  width: 800px;
+  /*display: flex;*/
+  /*flex-direction: column;*/
   text-align: center;
+}
+
+body {
+  background-color: #f9ebd7;
+}
+
+.ContactContainer {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
