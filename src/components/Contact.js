@@ -8,7 +8,7 @@ const Contact = ({data}) => {
         <div className="card">
             <img className="profpic" src={data.photo}/>
             <div>
-                <p>{data.name}</p>
+                <p><b>{data.name}</b></p>
                 <p>{data.phone}</p>
                 <p>{data.email}</p>
             </div>

@@ -11,7 +11,7 @@ body {
 }
 
 .ContactContainer {
-  display: flex;
+  display: grid;
+  justify-content: center;
   flex-direction: column;
-  justify-content: space-between;
 }
